@@ -54,7 +54,7 @@ function enviar(lat, lon, dispositivo, status, btn) {
     body: JSON.stringify(payload)
   })
   .then(() => {
-    status.textContent = "✓ Registrado correctamente";
+    status.textContent = "✓ Documento descargado correctamente";
     status.className = "status ok";
     btn.textContent = "Listo";
   })
